@@ -179,8 +179,8 @@ module.exports = function (grunt) {
             },
             pages: {
                 options: {
-                    remote: 'git@github.com:DigitalMindCH/gridster-jekyll-theme.git', // change that
-                    branch: 'gh-pages' // adjust here
+                    remote: 'git@github.com:AshOrtiz/ashortiz.github.io.git', // change that
+                    branch: 'master' // adjust here
                 }
             }
         },
