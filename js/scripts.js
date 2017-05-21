@@ -41,28 +41,10 @@ $(document).ready(function () {
         $("#switch-style").attr("href", "/css/" + cookieLayout + ".css");
     }
 
-    // Style Switch index layout
-    $(".switch div").click(function () {
-        var id = $(this).attr("id");
-
-        // adjust link here
-        $("#switch-style").attr("href", "/css/" + id + ".css");
-        setCookie("switch-style", id, 365);
-    });
-
     var cookieColor = getCookie("color-change");
     if (cookieColor != "") {
         $("#color-change").attr("href", "/css/main_" + cookieColor + ".css");
     }
-
-    // Style Switch color scheme
-    $(".color-change img").click(function () {
-        var id = $(this).attr("id");
-
-        // adjust link here
-        $("#color-change").attr("href", "/css/main_" + id + ".css");
-        setCookie("color-change", id, 365);
-    });
 
     if ($('.articles').find('div.wrapper').length != 0) {
         $('.switch').hide();
