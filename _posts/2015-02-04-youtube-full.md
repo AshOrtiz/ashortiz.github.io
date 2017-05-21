@@ -1,6 +1,4 @@
 ---
-author: someone
-layout: post-full
 type: youtube
 yt-video-id: E802ZnXbnFY
 homedisplay: iframe

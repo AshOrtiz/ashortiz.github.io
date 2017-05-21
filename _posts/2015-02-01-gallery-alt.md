@@ -1,6 +1,4 @@
 ---
-author: someone
-layout: post-full
 type: gallery
 featimg: gallery-2.jpg
 title: Gallery Alternative
